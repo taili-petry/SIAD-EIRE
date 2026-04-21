@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    width: 320px;
+    height: 100vh;
+    background: #f2f2f2;
+    border-right: 1px solid #ccc;
+    padding: 20px;
+    position: fixed;
+    overflow-y: auto;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.checkbox {
+    display: block;
+    margin: 10px 0;
+}
+
+.label {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #aaa;
+}
+
+button {
+    width: 100%; 
+    margin-top: 10px;
+    padding: 10px;
+    background: #326b96;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #245273;
+}
+
+.tabela-props {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabela-props th, .tabela-props td {
+    border: 1px solid #ccc;
+    padding: 6px;
+}
+
+.dados-gerais {
+    margin-top: 20px;
+    background: #e6eee6;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.logo {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #004f26;
+    text-align: center;
+}
+
+/* MAP */
+#map {
+    height: 100vh;
+    margin-left: 320px;
+}
